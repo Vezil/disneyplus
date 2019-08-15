@@ -1,18 +1,25 @@
 <template>
+
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <p class="mb-32">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione, dicta quibusdam tenetur totam eligendi laboriosam? In cumque iste excepturi. Maxime illum ipsa modi illo recusandae magnam accusantium et quis deserunt ducimus, placeat, harum sapiente vero accusamus repellendus non facilis optio laboriosam provident voluptatibus perspiciatis aperiam amet debitis. Labore, repellat?
+  </p>
+    <p class="mb-32">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione, dicta quibusdam tenetur totam eligendi laboriosam? In cumque iste excepturi. Maxime illum ipsa modi illo recusandae magnam accusantium et quis deserunt ducimus, placeat, harum sapiente vero accusamus repellendus non facilis optio laboriosam provident voluptatibus perspiciatis aperiam amet debitis. Labore, repellat?
+  </p>
+    <p class="mb-32">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione, dicta quibusdam tenetur totam eligendi laboriosam? In cumque iste excepturi. Maxime illum ipsa modi illo recusandae magnam accusantium et quis deserunt ducimus, placeat, harum sapiente vero accusamus repellendus non facilis optio laboriosam provident voluptatibus perspiciatis aperiam amet debitis. Labore, repellat?
+  </p>
+    <p class="mb-32">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione, dicta quibusdam tenetur totam eligendi laboriosam? In cumque iste excepturi. Maxime illum ipsa modi illo recusandae magnam accusantium et quis deserunt ducimus, placeat, harum sapiente vero accusamus repellendus non facilis optio laboriosam provident voluptatibus perspiciatis aperiam amet debitis. Labore, repellat?
+  </p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  }
+  
 }
 </script>
