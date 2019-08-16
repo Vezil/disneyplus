@@ -2,7 +2,20 @@
   <div id="app" class="flex bg-gray-900 text-white min-h-screen">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <div class="nav w-24 fixed min-h-screen flex text-gray-500 justify-center items-center">
-      <ul>
+      <Slide>
+        <a id="home" href="#">
+          <router-link to="/about" class="flex items-center mb-10">
+            <div><img src="@/assets/Paskuda.jpg" alt="avatar" class="rounded-full w-12 h-12">
+            <div class="text-gray-500 ml-6 hover:text-gray-300">Pan Paskuda</div>
+            </div>
+          </router-link>
+          <router-link to="/">
+            <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
+            <span>Search</span>
+          </router-link>
+        </a>
+      </Slide>
+       <ul>
         <li class="mb-10">
          <a href="#" class="hover:text-white">
            <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
@@ -42,5 +55,15 @@
     </div>
   </div>
 </template>
+
+<script>
+import {Slide} from 'vue-burger-menu'
+export default {
+  components: {
+    Slide
+  }
+}
+</script>
+
 
 <style src="./css/main.css">
