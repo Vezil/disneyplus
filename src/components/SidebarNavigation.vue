@@ -1,7 +1,7 @@
   <template>    
         <Slide>
           
-            <router-link to="/about" class="flex items-center mb-10">
+            <router-link to="/Profile" class="flex items-center mb-10">
               <div><img src="@/assets/Paskuda.jpg" alt="avatar" class="rounded-full w-12 h-12"></div>
               <div class="text-gray-500 ml-6 hover:text-gray-300 ">Pan Paskuda</div>
               

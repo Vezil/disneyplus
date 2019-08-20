@@ -3,8 +3,10 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
       <sidebar-navigation />
       
+      
     <div class="w-full">
       <transition name="page" mode="out-in">
+        
       <router-view/>
      </transition>
     </div>
@@ -13,9 +15,11 @@
 
 <script>
 import SidebarNavigation from '@/components/SidebarNavigation.vue'
+
 export default {
   components: {
-    SidebarNavigation
+    SidebarNavigation,
+     
   }
 }
 </script>

@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      'sans': ['Fjalla One', 'sans-serif'],
+    },
     container: {
       padding: '1rem',
     },
