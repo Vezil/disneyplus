@@ -4,21 +4,27 @@
       <sidebar-navigation />
       
       
+      
+      
     <div class="w-full">
       <transition name="page" mode="out-in">
         
       <router-view/>
      </transition>
     </div>
+    <FooterG />
   </div>
+
 </template>
 
 <script>
-import SidebarNavigation from '@/components/SidebarNavigation.vue'
+import SidebarNavigation from '@/components/SidebarNavigation.vue';
+import FooterG from '@/components/FooterG.vue';
 
 export default {
   components: {
     SidebarNavigation,
+    FooterG
      
   }
 }
